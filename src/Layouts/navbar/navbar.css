@@ -1,0 +1,49 @@
+nav {
+    background-color: #20232a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px  10% ;
+}
+nav .link {
+    color: #61dafb;
+    text-decoration: none;
+    font: inherit;
+    font-weight: bold;    
+    font-size: 30px;
+    padding: 10px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    color: ivory;
+}
+nav ul li {
+    float: left;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-right: 2rem;
+    padding: 10px 20px;
+}
+.bg-login{
+  background-color: #373940;
+  color: #61dafb ;
+  cursor: pointer;
+}
+.bg-login:hover{
+    color: #373940;
+  background-color: #61dafb ;
+  transition-duration: 1s;
+}
+.bg-sign{
+  color: #373940;
+  background-color: #61dafb ;
+  cursor: pointer;
+}
+.bg-sign:hover {
+    background-color: #373940;
+    color: #61dafb ; 
+    transition-duration: 1s;
+}
