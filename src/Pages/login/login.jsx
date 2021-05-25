@@ -1,6 +1,6 @@
 import React, { useRef, useState ,useEffect} from 'react';
 import { useHistory } from 'react-router';
-import NavBar from '../Layouts/navbar/NavBar';
+import NavBar from '../../Layouts/navbar/NavBar';
 import './login.css';
 
 
@@ -25,11 +25,11 @@ const Login = () => {
     }
   }
     useEffect(() => {
-     if(islogin) history.push('/notes')  
+     if(islogin) history.push('/notes') ;
     });
     return ( 
         <React.Fragment>
-        <NavBar/>
+        <NavBar isAuthorized={false} />
         <div className='login'>
         <h1 >LOGIN</h1>
         <form onSubmit={handleSubmit}>

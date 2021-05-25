@@ -33,8 +33,8 @@
 
 }
 .login input:focus{
-    background-color: #373940 ;
-    color: #61dafb;
+    background-color: rgb(247, 247, 247);
+    color: black;
     border-radius: 5px;
 }
 .login button {
@@ -55,7 +55,6 @@
 
 }
 .login button:hover,.login button:active ,.login button:focus {
-    background-color: #61dafb ;
     color: #838383;
     transition-duration: 1s;
 }
